@@ -1,0 +1,7 @@
+href=#<id> for reference link to same page location
+
+label for=<++> common to be same as input id=<++>
+    input checked for default checkbox and radio
+    input required for required field
+
+form tag action for action after submit button
