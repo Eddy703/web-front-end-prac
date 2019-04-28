@@ -1,0 +1,133 @@
+body {
+    position: relative;
+    font-family: Overlock , sans-serif;
+    background-color: LightSkyBlue;
+    font-size: 1.4em;
+    color: #3D3D3D;
+    text-align: center;
+}
+.form-outline{
+    font-size: 0.99em;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    width: 80vw;
+    border-radius: 10%;
+    height: auto;
+}
+.question {
+    display: block;
+    padding-bottom: 15px;
+}
+#description {
+    padding: 25px 0px 0px 0px;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.fill-in {
+    border-radius: 4px;
+    border-width: thin;
+    height: 30px;
+    width: 250px;
+}
+.q {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.a {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#dropdown {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+}
+.rating, input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+.rad, .checkbox {
+    position: relative;
+    left: -50px;
+    margin-left: 10px;
+    top: -10px;
+    padding-bottom: 10px;
+}
+#textarea {
+    border-radius: 4px;
+    border-width: thin;
+    width: 300px;
+    height: 100px;
+    text-align: left;
+    font-family: Overlock, sans-serif;
+    color: gray;
+    font-size: 1.1em;
+}
+#submit {
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    border-width: 0;
+    width: 100px;
+    height: 50px;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+#submit:hover {
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    animation-name: fade-pop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fade-pop {
+    0% {
+        border-radius: 5px;
+        border-width: 0;
+        width: 100px;
+        height: 50px;
+        font-size: 1.1em;
+    }
+    100% {
+        width: 150px;
+        height: 55px;
+        font-size: 1.15em;
+        border-radius: 10px;
+        border-width: thick;
+    }
+}
+#exclude:hover {
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+}
+@media screen and (max-width: 520px) {
+    .body {
+        font-size: 1.2em;
+    }
+    .q {
+        display: block;
+        text-align: left;
+        width: 50%;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .a {
+        display: block;
+        text-align: left;
+        width: 50%;
+        margin-top: 10px;
+    }
+    .form-outline {
+        border-radius: 1px;
+    }
+}

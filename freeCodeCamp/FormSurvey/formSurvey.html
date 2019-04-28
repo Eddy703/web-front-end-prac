@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Survey</title>
+        <link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <style>
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Feedback Survey</h1>
+        </header>
+        <div class="form-outline">
+            <p id="description"> Feedback on the last exercise TributePage</p>
+            <form id="survey-form" action="https://youtu.be/dQw4w9WgXcQ">
+                <h4>Personal Information:</h4>
+                <hr>
+                <div class="question">
+                    <div class="q"><label for="name" id="name-label">* Name:</label></div>
+                    <div class="a">
+                            <input id="name" class="fill-in" required type="text" name="name-label" placeholder="Enter Name here">
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="q"><label for="email" id="email-label">* Email:</label></div>
+                    <div class="a">
+                        <input id="email" class="fill-in" required type="email" name="email-label" placeholder="Enter Email here">
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="q"><label for="number" id="number-label">* Age:</label></div>
+                    <div class="a">
+                        <input id="number" class="fill-in" required type="number" name="age-label" min="1" max="125" placeholder="Enter Age here">
+                    </div>
+                </div>
+                <h4> Feedback: </h4>
+                <hr>
+                <div class="question">
+                    <div class="q" id="jobs"><label for="jobs" id="number-label">Which options suits your job title:</label></div>
+                    <div class="a">
+                        <select id="dropdown" name="jobs">
+                            <option disabled value> Select an option</option>
+                            <option value="FEDev"> Front End Developer</option>
+                            <option value="BEDev"> Back End Developer</option>
+                            <option value="FSDev"> Full Stack Developer</option>
+                            <option value="WDes"> Web Designers</option>
+                            <option value="Art"> Artists</option>
+                            <option value="SoftDev"> Software Developer</option>
+                            <option value="NetEng"> Network Enginneer</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="q" id="grade"><label id="grade-label">Grade the site:</label></div>
+                    <div class="a">
+                        <ul style="list-style: none;">
+                            <li class="rad"><label for="rating" >Good
+                                            <input class="rating" value="1" type="radio" name="rating"></label></li>
+                            <li class="rad"><label for="rating" >Neutral
+                                            <input class="rating" value="2" type="radio" name="rating"></label></li>
+                            <li class="rad"><label for="rating" >Bad
+                                            <input class="rating" value="3" type="radio" name="rating"></label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="q" id="area"><label for="area" id="area-label">Area to be improved:</label></div>
+                    <div class="a">
+                        <ul style="list-style: none;">
+                            <li class="checkbox"><label  for="area">Visual
+                                            <input value="vis" class="rating" type="checkbox" name="area"></label></li>
+                            <li class="checkbox"><label  for="area">Code
+                                            <input value="code" class="rating" type="checkbox" name="area"></label></li>
+                            <li class="checkbox"><label  for="area">Layout
+                                            <input value="layout" class="rating" type="checkbox" name="area"></label></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="q"><label for="textfeed" id="text-labe">Specific Details(If you wish):</label></div>
+                    <div class="a">
+                        <textarea id="textarea" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+                <button id="submit" type="submit">Submit</submit>
+            </form>
+        </div>
+        <footer id="end" color="#FFFFFF">
+            @author: <a class='ref' id="exclude" href="https://www.github.com/Eddy703">Eddy 'eddusk' Lei</a>
+        </footer>
+    </body>
+</html>
